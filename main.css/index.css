@@ -1,0 +1,31 @@
+.menu-opcoes ul{
+    font-size: 30px;
+  }
+.menu-opcoes a{
+    color: #003366;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 50px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logotipo{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+header{
+    position: relative;
+}
+
+.menu-opcoes{
+    top: 15%;
+    position: absolute;
+}
