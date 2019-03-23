@@ -1,14 +1,32 @@
 .menu-opcoes ul{
-    font-size: 30px;
-  }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
 .menu-opcoes a{
-    color: #003366;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+.menu-opcoes li a:hover{
+    background-color: #111;
 }
 
 .menu-opcoes ul li{
     display: inline;
     margin-left: 50px;
 }
+
 
 .container{
     margin: 0 auto;
@@ -25,7 +43,120 @@ header{
     position: relative;
 }
 
-.menu-opcoes{
-    top: 15%;
+.busca,
+.menu-servicos{
+    background-color: #dcdcdc;
+    font-weight: bold;
+  
+    margin-right: 10px;
+    width: 230px;
+
+    float: left;
+}
+
+.busca h2
+.busca form,
+.menu-servicos h2{
+    margin: 5px;
+}
+
+.menu-servicos li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    list-style-type: none;
+    
+   
+}
+
+.menu-servicos a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-servicos{
+    clear: left;
+}
+
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+.imagem-central{
+    width: 70%;
+    height: inherit;
+    
+}
+
+.clientes{
+    display: block;
+    float: left;
+    clear: left;
+    margin-right: 40px;
+}
+
+.clientes li{
+    list-style-type: none;
+}
+
+
+footer{
+    background-image: url(../imagens/fundo-rodape.png)
+}
+
+.social a{
+    height: 48px;
+    width: 48px;
+
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="https://www.whatsapp.com/"]{
+    background-image: url(../imagens/rodape/whatsapp-48.png)
+}
+
+
+.social a[href*="https://twitter.com/login?lang=pt"]{
+    background-image: url(../imagens/rodape/twitter-48.png)
+}
+
+.social a[href*="https://pt-br.facebook.com"]{
+    background-image: url(../imagens/rodape/facebook-48.png)
+}
+
+footer{
+    clear: both;
+    padding: 20px 0;
+   
+}
+
+footer .container{
+    position: relative;
+}
+
+.social{
     position: absolute;
+    top: 12px;
+    right: 0;
+
+}
+
+.social li{
+    list-style-type: none;
+    float: left;
+    margin-left: 25px;
+}
+
+
+.busca button{
+    background-image: url(../imagens/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+
+    width: 20px;
+    height: 20px;
+
+    text-indent: -999px;
 }
