@@ -180,3 +180,20 @@ footer .container{
 #sobrenosH2{
     border: solid 2px black;
 }
+
+
+.column{
+    float: left;
+    width: 33,33%;
+    padding: 10px;
+    height: 300px;
+    margin-left: 50px;
+    background-color: #aaa;
+}
+
+/* Clear floats after the columns*/
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
