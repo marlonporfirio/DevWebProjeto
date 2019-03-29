@@ -176,3 +176,7 @@ footer .container{
     cursor: pointer;
     margin-left: 90%;
 }
+
+#sobrenosH2{
+    border: solid 2px black;
+}
