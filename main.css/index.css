@@ -187,8 +187,9 @@ footer .container{
     width: 33,33%;
     padding: 10px;
     height: 300px;
-    margin-left: 50px;
+    margin-left: 100px;
     background-color: #aaa;
+    text-align: center;
 }
 
 /* Clear floats after the columns*/
