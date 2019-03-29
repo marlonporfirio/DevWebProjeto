@@ -104,7 +104,7 @@ header{
 
 
 footer{
-    background-image: url(../imagens/fundo-rodape.png)
+    background-image: url(../imagens/fundo-rodape.png);
 }
 
 .social a{
