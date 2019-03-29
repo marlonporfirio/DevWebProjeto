@@ -187,7 +187,7 @@ footer .container{
     width: 33,33%;
     padding: 10px;
     height: 300px;
-    margin-left: 100px;
+    margin-left: 200px;
     background-color: #aaa;
     text-align: center;
 }
@@ -197,4 +197,12 @@ footer .container{
     content: "";
     display: table;
     clear: both;
+}
+
+#email{
+    float: right;
+}
+
+#telefones{
+    float: left;
 }
