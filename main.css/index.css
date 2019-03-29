@@ -187,7 +187,7 @@ footer .container{
     width: 33,33%;
     padding: 10px;
     height: 300px;
-    margin-left: 200px;
+    margin-left: 100px;
     background-color: #aaa;
     text-align: center;
 }
@@ -205,4 +205,8 @@ footer .container{
 
 #telefones{
     float: left;
+}
+
+#colunacontatos{
+    margin-left: 200px;
 }
