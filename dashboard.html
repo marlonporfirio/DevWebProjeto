@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head class="container">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vix DaDoS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css/index.css">
+    <script src="main.js"></script>
+
+    <h1><img src="imagens/logo.png" alt="Logo da Vix Dados"></h1>
+
+    <button class="botao">Entrar</button>
+
+    <nav class="menu-opcoes">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
+            <li><a href="portifolio.html">Portifólio de Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    
+
+</head>
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+
+    <div class="contanier main">
+        
+        <div>
+            <canvas id="myChart" height="100px"></canvas>
+
+            <script>
+                var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho'],
+        datasets: [{
+            label: 'UFES',
+            backgroundColor: 'rgb(183, 100, 0)',
+            borderColor: 'rgb(183, 100, 0)',
+            data: [3, 10, 5, 2, 20, 30, 45]
+        },]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+            </script>
+
+        </div>
+        
+        
+    </div>
+
+    
+        <footer>
+            <div class="container">
+
+                <img src="imagens/rodape/logo_rodape.png" alt="logo da Vix Dados">
+
+                <ul class="social">
+                    <li><a href="https://www.whatsapp.com/">whatsapp</a></li>
+                    <li><a href="https://twitter.com/login?lang=pt">twitter</a></li>
+                    <li><a href="https://pt-br.facebook.com/">facebook</a></li>
+                </ul>
+
+            </div>
+           
+        </footer>
+        
+   <script src="temp.json"></script>
+</body>
+</html>
